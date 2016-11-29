@@ -1,0 +1,7 @@
+.button {
+  font: 1em "SourceSansProBold", sans-serif;
+  line-height: 1;
+  color: $white;
+  background: $juniper;
+  padding: 0 17px;
+}

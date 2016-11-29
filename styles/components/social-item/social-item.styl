@@ -1,0 +1,28 @@
+@import "../../variables.styl";
+
+.social-item {
+    flex-row();
+    margin-left: 130px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &__content {
+        margin-left: 20px;
+    }
+
+    &__title {
+        font: 1.125em "SourceSansProBold", sans-serif;
+        line-height: 1;
+        color: $juniper;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        font: 0.875em "SourceSansProRegular", sans-serif;
+        line-height: 1;
+        color: $submarine;
+    }
+}

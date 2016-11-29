@@ -1,0 +1,10 @@
+.footer {
+  background: #637f83;
+  padding: 35px 0;
+  text-align: center;
+}
+.footer__text {
+  font: 0.875em "SourceSansProRegular", sans-serif;
+  line-height: 1;
+  color: #fff;
+}

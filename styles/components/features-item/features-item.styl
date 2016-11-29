@@ -1,0 +1,35 @@
+@import "../../variables.styl";
+
+.features-item {
+    width: 210px;
+    text-align: center;
+    padding: 60px 50px;
+    border-left: 1px solid $alto;
+
+    &:first-child {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+
+    &__title {
+        margin: 25px 0 20px 0;
+        font: 1.375em "SourceSansProBold", sans-serif;
+        font-weight: 800;
+        line-height: 1;
+        color: $juniper;
+    }
+
+    &__desc {
+        font: 0.875em "SourceSansProRegular", sans-serif;
+        line-height: 1.428em;
+        color: $dusty-gray;
+    }
+
+    &__btn {
+        margin-top: 25px;
+    }
+}

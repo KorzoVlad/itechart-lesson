@@ -1,0 +1,40 @@
+@import "../../variables.styl";
+
+.subscribe-section {
+    background: $juniper;
+
+    .section {
+        &__title,
+        &__text {
+            color: $white;
+        }
+    }
+
+    &__content {
+        padding: 40px 0 50px 0;
+        border-top: 1px solid $cutty-sark;
+        flex-row();
+    }
+
+    &__info {
+        flex-row();
+        box-sizing: border-box;
+        margin-left: 30px;
+        padding: 20px 25px 20px 30px;
+        background: $cutty-sark;
+        width: 570px;
+    }
+
+    &__text {
+        font: 0.875em "SourceSansProRegular", sans-serif;
+        color: $submarine;
+        line-height: 1.57em;
+        margin-left: 25px;
+    }
+
+    &__link {
+        color: $white;
+        text-decoration: underline;
+    }
+
+}
