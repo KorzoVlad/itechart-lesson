@@ -1,0 +1,47 @@
+@import "../../variables.styl";
+
+.subscribe-form {
+    &__content {
+        flex-row();
+        margin-bottom: 32px;
+    }
+
+    &__info {
+        margin-left: 15px;
+    }
+
+    &__title {
+        font: 1.125em "SourceSansProBold", sans-serif;
+        line-height: 1;
+        color: $white;
+        font-weight: 800;
+    }
+
+    &__text {
+        font: 0.875em "SourceSansProRegular", sans-serif;
+        line-height: 1;
+        color: $white;
+        margin-top: 5px;
+    }
+
+    &__form {
+        flex-row();
+    }
+
+    &__input {
+        font: 1em "SourceSansProRegular", sans-serif;
+        color: $white;
+        padding: 8px 10px;
+        border: 0;
+        background: $cutty-sark;
+        border-radius: 4px;
+        width: 450px;
+        outline: none;
+    }
+
+    &__btn {
+        color: $white;
+        background: $cutty-sark;
+        margin-left: 10px;
+    }
+}

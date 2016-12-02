@@ -1,0 +1,29 @@
+@import "../../variables.styl";
+
+.members-item {
+    flex-row();
+    flex: 1;
+
+    &__link {
+        color: $hot-cinnamon;
+        cursor: pointer;
+    }
+
+    &__content {
+        margin-left: 30px;
+    }
+
+    &__author {
+        font: 1.375em "SourceSansProBold", sans-serif;
+        color: $juniper;
+        line-height: 1;
+        font-weight: 800;
+    }
+
+    &__desc {
+        margin-top: 10px;
+        font: 0.875em "SourceSansProRegular", sans-serif;
+        color: $dusty-gray;
+        line-height: 1.85em;
+    }
+}

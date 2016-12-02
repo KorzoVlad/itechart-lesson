@@ -1,0 +1,6 @@
+.subscribe-section {
+  background: $juniper;
+}
+.subscribe-section .section__header {
+  color: $white;
+}

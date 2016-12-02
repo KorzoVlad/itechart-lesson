@@ -1,0 +1,51 @@
+@import "../../variables.styl";
+
+.gallery-slider {
+    padding: 50px 0;
+    border-top: 1px solid $alto;
+    border-bottom: 1px solid $alto;
+    position: relative;
+    text-align: center;
+
+    &__btn {
+        margin-top: 40px;
+    }
+
+    &__content {
+        flex-row();
+    }
+
+    &__arrows {
+        flex-row();
+        position: absolute;
+        background: $white;
+        padding: 0 20px;
+        left: 50%;
+        margin-left: -44px;
+        top: -10px;
+    }
+
+    &__prev,
+    &__next {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    &__prev {
+        background: url("../img/left-arrow-icon.png") no-repeat 0 0;
+        margin-right: 8px;
+    }
+
+    &__next {
+        background: url("../img/right-arrow-icon.png") no-repeat 0 0;
+    }
+
+    &__item {
+        margin-left: 30px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

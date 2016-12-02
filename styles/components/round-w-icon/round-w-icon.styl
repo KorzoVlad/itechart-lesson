@@ -1,0 +1,48 @@
+@import "../../variables.styl";
+
+.round-w-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: $hot-cinnamon;
+    position: relative;
+    border-radius: 50%;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    &--fb {
+        &:before {
+            background: url("../img/fb-icon.png") no-repeat 0 0;
+            width: 14px;
+            height: 30px;
+            margin-top: -15px;
+            margin-left: -7px;
+        }
+    }
+
+    &--google {
+        &:before {
+            background: url("../img/google-icon.png") no-repeat 0 0;
+            width: 30px;
+            height: 30px;
+            margin-top: -15px;
+            margin-left: -15px;
+        }
+    }
+
+    &--inst {
+        &:before {
+            background: url("../img/inst-icon.png") no-repeat 0 0;
+            width: 28px;
+            height: 27px;
+            margin-top: -14px;
+            margin-left: -14px;
+        }
+    }
+
+}
